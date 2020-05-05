@@ -4,12 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>EVA2020</title>
+		<title>CAS May 2020</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
     <link rel="stylesheet" href="css/fania.css">
-    <link rel="stylesheet" href="css/faniaTest.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -39,35 +38,22 @@
 		<div class="reveal">
 			<div class="slides">
 
+        <section data-markdown>
+          <textarea data-template>
+            ## Page title
 
-        <section>
-          <!-- <img src="imgs/square3.png"><img src="imgs/square4.png" width="200"> -->
-          <img src="imgs/square2.png">
-          <h1>Creative Visualisation of Magic Squares</h1>
-          <h2 class="plain"><a href="https://daveeveritt.org">Dave Everitt</a> & <a href="https://fania.uk">Fania Raczinski</a></h2>
-          <h3 class="plain">EVA 2020 London</h3>
+            A paragraph with some text and a [link](http://hakim.se).
+          </textarea>
         </section>
 
-        <section>
-          <section>
-            <h2><strong>Magic</strong> Squares</h2>
-            <img class="small" src="imgs/loshu.png">
-          </section>
-          <section>
-            <h2><strong>Magic</strong> Lines</h2>
-          </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Page title
+
+            A paragraph with some text and a [link](http://hakim.se).
+          </textarea>
         </section>
-
-
-
-
-
-        <section>
-          <code id="end">questions<br> 
-            <strong>?</strong> answers<br> 
-            <strong>:</strong> thanks</code>
-        </section>
-
+      
 			</div>
 		</div>
 
@@ -77,6 +63,8 @@
 		<script>
 			Reveal.initialize({
 				dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				],
