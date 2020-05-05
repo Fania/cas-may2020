@@ -4,8 +4,6 @@ body {
   background-color: #202020;
 }
 
-
-
 .reveal code#end {
   font-size: 1.4em;
 }
@@ -86,6 +84,7 @@ body {
 
 .reveal h2 {
   font-size: 1.6em; 
+  color: #BEEF9E;
   text-transform: none; }
 
 .reveal h3 {
